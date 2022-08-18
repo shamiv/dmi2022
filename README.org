@@ -7,7 +7,7 @@
 - I was also involved in some cross-platform analysis (with the groups studying Twitter and TikTok).
 ** Result
 - [[https://shamiv.github.io/dmi2022/instagram_years.html][Map1]]: Showing the locations mentioned in Instagram posts that mention (words very similar to) "sealevelrise" for the years 2012-2022.
-- [[https://shamiv.github.io/dmi2022/cross_platform_2020-2021.html][Map2]]: Comparing the locations mentioned in posts/tweets that mention (words very similar to) "sealevelrise" on TikTok (2022, until week 27), Instagram (2022, until week 27), Twitter (2021).
+- [[https://shamiv.github.io/dmi2022/cross_platform_2021-2022.html][Map2]]: Comparing the locations mentioned in posts/tweets that mention (words very similar to) "sealevelrise" on TikTok (2022, until week 27), Instagram (2022, until week 27), Twitter (2021).
 ** Some hard-earned lessons
 *** Mordecai
 - You have to have run Python 3.7. (I had to run a virtual environment).
