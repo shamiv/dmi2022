@@ -1,17 +1,21 @@
 * Digital Methods Initiative
 ** Intro
 - This project was part of the DMI that took place in the summer of 2022 in Amsterdam ([[https://wiki.digitalmethods.net/Dmi/SummerSchool2022][link]]).
-- Our sub-group focused on Instagram.
+- Our sub-group focused on the way Sea level rise is represented on Instagram.
 - [[./data/raw/instagram.xlsx][This]] was the raw data we worked with.
 - My contribution consisted of geoparsing the data with [[https://github.com/openeventdata/mordecai][Mordecai]] and creating interactive maps with the Python API of [[https://kepler.gl/][Kepler.gl]].
+- I was also involved in some cross-platform analysis (with the groups studying Twitter and TikTok).
+** Result
+- [[https://shamiv.github.io/dmi2022/instagram_years.html][Map1]]: Showing the locations mentioned in Instagram posts that mention (words very similar to) "sealevelrise" for the years 2012-2022.
+- [[https://shamiv.github.io/dmi2022/cross_platform_2020-2021.html][Map2]]: Comparing the locations mentioned in posts/tweets that mention (words very similar to) "sealevelrise" on TikTok (2022, until week 27), Instagram (2022, until week 27), Twitter (2021).
 ** Some hard-earned lessons
 *** Mordecai
-- You have to have run Python 3.7
-- You have to run the docker command (see [[https://github.com/openeventdata/mordecai][Mordecai]]) from the right directory
+- You have to have run Python 3.7. (I had to run a virtual environment).
+- You have to run the docker run command (see [[https://github.com/openeventdata/mordecai][Mordecai]]) from the right directory.
 - Because the loading of the geoparser from Mordecai, and the set-up of the Geoparsers() take quite some time, it might be useful to debug in ipython (or something like that), in which you can load those elements, and tinker with the code separately.
 *** Kepler Python API
 - Although it's not that hard to create a Kepler map, it has been quite a challenge to find a way to adjust what the map displays by default (the config).
-- The documentation of the config settings in Python are (as far as I know) very limited.
+- The documentation of the config settings in Python are (as far as I know) very (frustratingly) limited.
 - Instead, what I did, was run the Python API in a Jupyter notebook (Jupyter Lab) (see [[https://docs.kepler.gl/docs/keplergl-jupyter][here]]). That way you can build the map, customize it manually and then export it as html (or print the config, which you can use to export that map (including customization) outside the Jupyter notebook).
 *** Host the Kepler map on Github
 - Hosting the map on Gitlab turned out to be quite difficult. Which is why I ended up using Gitlab pages (settings -> Pages).
