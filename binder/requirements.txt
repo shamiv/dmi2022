@@ -1,5 +1,6 @@
 pandas
 keplergl
 numpy
-
+ipywidgets
+jupyter_contrib_nbextensions
 
