@@ -12,7 +12,7 @@
 *** Mordecai
 - You have to have run Python 3.7. (I had to run a virtual environment).
 - You have to run the docker run command (see [[https://github.com/openeventdata/mordecai][Mordecai]]) from the right directory.
-- Because the loading of the geoparser from Mordecai, and the set-up of the Geoparsers() take quite some time, it might be useful to debug in ipython (or something like that), in which you can load those elements, and tinker with the code separately.
+- Because the loading of the geoparser from Mordecai, and the set-up of the Geoparser() take quite some time, it might be useful to debug in ipython (or something like that), in which you can load those elements, and tinker with the code separately.
 *** Kepler Python API
 - Although it's not that hard to create a Kepler map, it has been quite a challenge to find a way to adjust what the map displays by default (the config).
 - The documentation of the config settings in Python are (as far as I know) very (frustratingly) limited.
