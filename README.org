@@ -1,4 +1,4 @@
-* Digital Methods Initiative
+* Digital Methods Initiative Summer School 2022
 ** Intro
 - This project was part of the DMI that took place in the summer of 2022 in Amsterdam ([[https://wiki.digitalmethods.net/Dmi/SummerSchool2022][link]]).
 - Our sub-group focused on the way Sea level rise is represented on Instagram.
