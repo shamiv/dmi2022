@@ -6,8 +6,8 @@
 - My contribution consisted of geoparsing the data with [[https://github.com/openeventdata/mordecai][Mordecai]] and creating interactive maps with the Python API of [[https://kepler.gl/][Kepler.gl]].
 - I was also involved in some cross-platform analysis (with the groups studying Twitter and TikTok).
 ** Results
-- [[https://shamiv.github.io/dmi2022/instagram_years.html][Map1]]: Showing the locations mentioned in Instagram posts that mention (words very similar to) "sealevelrise" for the years 2012-2022. (Click the legend button on the right).
-- [[https://shamiv.github.io/dmi2022/cross_platform_2021-2022.html][Map2]]: Comparing the locations mentioned in posts/tweets that mention (words very similar to) "sealevelrise" on TikTok (2022, until week 27), Instagram (2022, until week 27), Twitter (2021). (Click the legend button on the right).
+- [[https://shamiv.github.io/dmi2022/instagram_years.html][Map1]]: Showing the locations mentioned in Instagram posts that mention (words very similar to) "sealevelrise" for the years 2012-2022. (Open the legend by clicking the legend-button on the right, third from the top).
+- [[https://shamiv.github.io/dmi2022/cross_platform_2021-2022.html][Map2]]: Comparing the locations mentioned in posts/tweets that mention (words very similar to) "sealevelrise" on TikTok (2022, until week 27), Instagram (2022, until week 27), Twitter (2021). (Open the legend by clicking the legend-button on the right, third from the top)
 ** Some hard-earned lessons
 *** Mordecai
 - You have to have run Python 3.7. (I had to run a virtual environment).
